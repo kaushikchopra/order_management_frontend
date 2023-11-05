@@ -18,6 +18,7 @@ Admin can access the **Orders table** to retrieve order details and the **Produc
 
 A **Dashboard** has been created to view sales and revenue charts.
 
+NOTE:- For persist login, please do check the _Trust this device_ option in the login page.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Getting Started with Create React App
