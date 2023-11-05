@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { logOut, setCredentials } from "./authSlice";
 
 const baseQuery = fetchBaseQuery({
-    baseUrl: "http://localhost:8070",
+    baseUrl: "https://order-management-mb7d.onrender.com",
     credentials: "include",
     prepareHeaders: (headers, { getState }) => {
         const token = getState().auth.token;
