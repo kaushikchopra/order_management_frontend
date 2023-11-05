@@ -1,3 +1,25 @@
+# Order Management App - MERN project
+To access the app using Admin access, enter the following credentials:
+email: _admin@example.com_
+password: _Admin@123_
+
+Alternatively, to access the app as a customer, enter the following credentials or _create your own account_:
+email: _customer1@gmail.com_
+password: _Customer@123_
+
+The features that are added in this app (for now) are:
+1. Create an order
+2. Managing Order Status
+3. Deleting Order
+4. Creating a Product
+5. Deleting a Product
+
+Admin can access the **Orders table** to retrieve order details and the **Products table** to retrieve product information that is available to consumers.
+
+A **Dashboard** has been created to view sales and revenue charts.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
