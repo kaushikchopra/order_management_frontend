@@ -1,0 +1,46 @@
+:root {
+  --offcanvas-width: 270px;
+  --topNavbarHeight: 56px;
+}
+
+.offcanvas.sidebar-nav {
+  width: var(--offcanvas-width) !important;
+}
+
+.offcanvas.sidebar-link {
+  display: flex !important;
+  align-items: center !important;
+}
+.offcanvas.sidebar-link .right-icon {
+  display: inline-flex !important;
+  transition: all ease 0.25s;
+}
+
+.sidebar-link[aria-expanded="true"] .right-icon {
+  transform: rotate(180deg) !important;
+}
+
+@media (min-width: 992px) {
+  body {
+    overflow: auto !important;
+  }
+  .offcanvas::backdrop::before {
+    display: none !important;
+  }
+
+  main {
+    margin-left: var(--offcanvas-width);
+  }
+  .offcanvas.sidebar-nav {
+    transform: none !important;
+    visibility: visible !important;
+    top: var(--topNavbarHeight) !important;
+    height: calc(100% - var(--topNavbarHeight)) !important;
+  }
+}
+
+@media (max-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute !important;
+    }
+}
